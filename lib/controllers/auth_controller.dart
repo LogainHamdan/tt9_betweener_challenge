@@ -3,10 +3,7 @@ import 'package:tt9_betweener_challenge/constants.dart';
 import 'package:tt9_betweener_challenge/models/user.dart';
 
 Future<User> login(Map<String, String> body) async {
-  final response = await http.post(
-    Uri.parse(loginUrl),
-    body: body,
-  );
+  final response = await http.post(Uri.parse(loginUrl), body: body);
 
   if (response.statusCode == 200) {
     return userFromJson(response.body);

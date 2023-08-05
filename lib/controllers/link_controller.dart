@@ -6,7 +6,7 @@ import 'package:tt9_betweener_challenge/constants.dart';
 import 'package:tt9_betweener_challenge/models/user.dart';
 import 'package:tt9_betweener_challenge/views/login_view.dart';
 
-import '../models/link.dart';
+import '../models/links.dart';
 import 'package:http/http.dart' as http;
 
 Future<List<Link>> getLinks(context) async {

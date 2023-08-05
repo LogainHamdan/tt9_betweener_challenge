@@ -5,6 +5,10 @@ const baseUrl = 'https://www.osamapro.online/api';
 const loginUrl = '$baseUrl/login';
 const linksUrl = '$baseUrl/links';
 
+const addLinkUrl = '$baseUrl/links';
+const followersUrl = '$baseUrl/links';
+const searchUrl = '$baseUrl/search';
+
 // ============= STYLE CONSTS ==============
 
 const kScaffoldColor = Color(0xffFDFDFD);
